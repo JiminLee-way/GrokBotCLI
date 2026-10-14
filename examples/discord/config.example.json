@@ -1,0 +1,21 @@
+{
+  "gbd": "unix:///home/USER/.config/gb/default/gbd.sock",
+  "defaultBot": "Assistant",
+  "servers": {
+    "111111111111111111": {
+      "bots": ["Researcher", "Writer", "Analyst", "Planner", "Reviewer"],
+      "defaultBot": "Researcher",
+      "alertChannel": "222222222222222222"
+    },
+    "333333333333333333": {
+      "bots": ["Scout", "Editor", "Coder", "Tester", "Operator"],
+      "defaultBot": "Scout"
+    }
+  },
+  "channels": {},
+  "avatars": {"Researcher": "https://example.com/researcher.png"},
+  "personas": true,
+  "guildId": "",
+  "maxUploadMB": 0,
+  "alertChannel": ""
+}

@@ -1,0 +1,8 @@
+bin/
+dist/
+*.sock
+.gb-test/
+examples/discord/config.json
+gb
+gbdiscord
+.DS_Store
