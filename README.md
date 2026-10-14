@@ -37,6 +37,7 @@
 - [Security notes](#security-notes)
 - [Known limitations](#known-limitations)
 - [Building from source](#building-from-source)
+- [License](#license)
 
 ## What it does
 
@@ -409,6 +410,11 @@ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -trimpath -ldflags="-s -w" -o gb-
 
 Environment: `GB_HOME` (config dir), `GB_PROFILE` (account), `GB_DEBUG=1`, `CURSOR_ACCESS_TOKEN`,
 `GB_GATEWAY_URL` / `GB_GATEWAY_TOKEN` / `GB_GATEWAY_NETWORK_TOKEN`.
+
+## License
+
+[MIT](LICENSE). The license covers this repository's code and documentation only; it grants no rights to any
+third-party service, trademark or content.
 
 ---
 
